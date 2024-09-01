@@ -1,2 +1,9 @@
-1. Preprocessor >> Line beginning with a # are called directives and are read and interpreted
-                   by preprocessors. This is done before the compilation of the program.
+1. Preprocessor: Line beginning with a # are called directives and are read and interpreted
+                 by preprocessors. This is done before the compilation of the program.
+
+2. ">>" is called insertion operator. can go both ways (>> or <<)
+3. std::out  : Standard Character Output Device
+4. using namespace std:
+    Introduces visibility of components of std library. These components can now be used
+    without declaring std in front of every component every-time;
+5.
