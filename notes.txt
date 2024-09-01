@@ -1,0 +1,2 @@
+1. Preprocessor >> Line beginning with a # are called directives and are read and interpreted
+                   by preprocessors. This is done before the compilation of the program.
