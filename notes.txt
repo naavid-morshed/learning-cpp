@@ -4,7 +4,7 @@
 2. cout << [insertion operator]
    cin >> [extraction operator] [doesn't allow spaces in strings, for string with gaps/spaces see 9.]
 
-3. std::out  : Standard Character Output Device
+3. std::out : Standard Character Output Device
 
 4. using namespace std: (“using namespace std” is considered bad practice)
     Introduces visibility of components of std library. These components can now be used
@@ -29,4 +29,14 @@
     it needs to be expelled otherwise it will be taken as input by getline
 
 11. #include <iostream> [provides standard/std library for use]
-12. #include <cmath> [provides some arithmatic functions like pow(x, y), sqrt(x) etc]
+12. #include <cmath> [provides some arithmatic functions like pow(x, y), sqrt(x), abs(x) etc]
+    // abs will return the absolute value
+    // floor(x) [round down]
+    // ceil(x) [round up]
+    // round(x) [if < .5 then floor, if >= .5 then ceil]
+    
+13. iostream, cmath are called header files
+
+14. std::max(x, y), std::min(x, y)
+
+15. 
