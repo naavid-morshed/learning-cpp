@@ -39,4 +39,15 @@
 
 14. std::max(x, y), std::min(x, y)
 
-15. 
+15. std::cout << (hungry ? "You are hungry" : "You are Full") << std::endl;
+    [parenthesis is necessary here since ? has lower precedence compared to <<]
+
+16. tried several string operations, check string-operations.cpp
+    (insert, at, clear, append, erase(index1, index2), )
+
+17. int num; [if not assigned the num will be set to 0]
+18. random number (check cpp)
+    srand(time(NULL)); // this will create seed with current time in miliseconds as range
+    int num = (rand() % 2) + 1; // die roll, get either 0/1, +1 to make it 1/2
+
+19. time(null) is the same as time(0), this will create current time in miliseconds
