@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int main() {
     int a, b;
     cout << "Enter first number: ";
@@ -8,5 +9,6 @@ int main() {
     cin >> b;
     const int sum = a + b;
     cout << "Total: " << sum << "." << endl;
+
     return 0;
 }
