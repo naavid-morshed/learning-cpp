@@ -2,12 +2,25 @@
                  by preprocessors. This is done before the compilation of the program.
 
 2. ">>" is called insertion operator. can go both ways (>> or <<)
+
 3. std::out  : Standard Character Output Device
-4. using namespace std:
+
+4. using namespace std: (“using namespace std” is considered bad practice)
     Introduces visibility of components of std library. These components can now be used
     without declaring std in front of every component every-time;
+
 5. namespace nspace_name {
      int a = 2;
-   }
+   } this allows declaration of multiple variables of same name. see "namespace.cpp"
 
-6.
+6. typedef std::string text_t [typedef is used for creating custom datatype, 
+   convention is to end type name with "_t"]
+   ["typedef" has been replaced with "using" keyword, because it works better with templates]
+
+7. using text_t = std::string [does the same thing as typedef but is considered better, 
+   why better? will explore later]
+
+8. ++number(increment first) and number++(increment later) both works.
+
+9. cout << [insertion operator]
+   cin >> [extraction operator]
