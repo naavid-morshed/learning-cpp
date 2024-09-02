@@ -6,4 +6,8 @@
 4. using namespace std:
     Introduces visibility of components of std library. These components can now be used
     without declaring std in front of every component every-time;
-5.
+5. namespace nspace_name {
+     int a = 2;
+   }
+
+6.
