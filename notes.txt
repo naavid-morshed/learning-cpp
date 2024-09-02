@@ -24,3 +24,9 @@
 8. ++number(increment first) and number++(increment later) both works.
 
 9. std::getline(std::cin, inpName)
+
+10. cin puts a white space character after taking input, [check getline.cpp]
+    it needs to be expelled otherwise it will be taken as input by getline
+
+11. #include <iostream> [provides standard/std library for use]
+12. #include <cmath> [provides some arithmatic functions like pow(x, y), sqrt(x) etc]
