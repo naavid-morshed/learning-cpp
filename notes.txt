@@ -1,7 +1,8 @@
 1. Preprocessor: Line beginning with a # are called directives and are read and interpreted
                  by preprocessors. This is done before the compilation of the program.
 
-2. ">>" is called insertion operator. can go both ways (>> or <<)
+2. cout << [insertion operator]
+   cin >> [extraction operator] [doesn't allow spaces in strings, for string with gaps/spaces see 9.]
 
 3. std::out  : Standard Character Output Device
 
@@ -22,5 +23,4 @@
 
 8. ++number(increment first) and number++(increment later) both works.
 
-9. cout << [insertion operator]
-   cin >> [extraction operator]
+9. std::getline(std::cin, inpName)
