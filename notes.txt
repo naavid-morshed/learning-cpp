@@ -68,3 +68,7 @@
       std::string a[1];
       std::cout << sizeof(a) << std::endl;
     ]
+
+25. length methods are not available for all types of arrays, solution:
+    [sizeof(arr)/sizeof(datatype)]
+    [sizeof(arr)/sizeof(arr[0])]
