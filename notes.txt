@@ -51,3 +51,20 @@
     int num = (rand() % 2) + 1; // die roll, get either 0/1, +1 to make it 1/2
 
 19. time(null) is the same as time(0), this will create current time in miliseconds
+
+20. it is possible to declare global variables accessible to all functions, had to be declared outside of main functions
+    [between both local and global variables with same name, local variables will have frist priority]
+    [::var can be used to call global variable if both local and global variables have same name]
+
+21. #include <iomanip>
+22. how to clear buffer after input =>
+    std::cin.clear();
+    fflush(stdin);
+    [not sure where to use these two lines]
+
+24. sizeof(datatype/variable) [finds out how many byte(s) are begin used by a data type]
+    [for example: float takes 4 bytes, double takes 8 bytes]
+    [
+      std::string a[1];
+      std::cout << sizeof(a) << std::endl;
+    ]
