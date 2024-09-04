@@ -72,3 +72,6 @@
 25. length methods are not available for all types of arrays, solution:
     [sizeof(arr)/sizeof(datatype)]
     [sizeof(arr)/sizeof(arr[0])]
+
+26. when arrays are passed to a function, it decays into a pointer, and the function has no information
+    on the size of the array.
