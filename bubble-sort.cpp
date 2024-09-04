@@ -3,33 +3,33 @@
 int main()
 {
     int numArr[] = {2, 6, 3, 1, 9, 5, 4, 10, 8, 8, 7};
-    int numArrLength = sizeof(numArr) / sizeof(int);
+    int size = sizeof(numArr) / sizeof(int);
 
     // low to high
-    for (int index1; index1 < numArrLength - 1; index1++)
+    for (int i = 0; i < size - 1; i++)
     {
-        for (int index2; index2 < numArrLength - index2 - 1; index2++)
+        for (int j = 0; j < size - i - 1; j++)
         {
-            if (numArr[index2] > numArr[index2 + 1])
+            if (numArr[j] > numArr[j + 1])
             {
                 int temp;
-                temp = numArr[index2];
-                numArr[index2] = numArr[index2 + 1];
-                numArr[index2 + 1] = temp;
+                temp = numArr[j];
+                numArr[j] = numArr[j + 1];
+                numArr[j + 1] = temp;
             }
         }
     }
 
-    for (int i = 0; i < numArrLength; i++)
+    for (int i = 0; i < size; i++)
     {
-        std::cout << numArr[i] << ((i + 1 != numArrLength) ? ", " : ".");
+        std::cout << numArr[i] << ((i + 1 != size) ? ", " : ".");
     }
     std::cout << std::endl;
 
     // high to low
-    for (int index1; index1 < numArrLength; index1++)
+    for (int index1; index1 < size; index1++)
     {
-        for (int index2 = index1; index2 < numArrLength; index2++)
+        for (int index2 = index1; index2 < size; index2++)
         {
             if (numArr[index1] < numArr[index2])
             {
@@ -41,9 +41,9 @@ int main()
         }
     }
 
-    for (int i = 0; i < numArrLength; i++)
+    for (int i = 0; i < size; i++)
     {
-        std::cout << numArr[i] << ((i + 1 != numArrLength) ? ", " : ".");
+        std::cout << numArr[i] << ((i + 1 != size) ? ", " : ".");
     }
     std::cout << std::endl;
 }

@@ -45,7 +45,9 @@
 16. tried several string operations, check string-operations.cpp
     (insert, at, clear, append, erase(index1, index2), )
 
-17. int num; [if not assigned the num will be set to 0]
+17. int num; [if not assigned the num will be set to 0 for global variables, for local variables default
+    value will hold garbage is not specifically assigned]
+
 18. random number (check cpp)
     srand(time(NULL)); // this will create seed with current time in miliseconds as range
     int num = (rand() % 2) + 1; // die roll, get either 0/1, +1 to make it 1/2
@@ -75,3 +77,5 @@
 
 26. when arrays are passed to a function, it decays into a pointer, and the function has no information
     on the size of the array.
+
+27. fill(arr, arr + length, value) [fill an array with one specified value]
