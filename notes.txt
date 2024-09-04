@@ -80,3 +80,5 @@
 
 27. fill(arr, arr + length, value) [fill an array with one specified value]
     fill(start, end, val) [see fill.cpp]
+
+28. 2D array [check 2d-array.cpp]
