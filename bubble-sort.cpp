@@ -25,7 +25,6 @@ int main()
         std::cout << numArr[i] << ((i + 1 != numArrLength) ? ", " : ".");
     }
     std::cout << std::endl;
-    
 
     // high to low
     for (int index1; index1 < numArrLength; index1++)
