@@ -12,8 +12,7 @@ int main()
         {
             if (numArr[j] > numArr[j + 1])
             {
-                int temp;
-                temp = numArr[j];
+                const int temp = numArr[j];
                 numArr[j] = numArr[j + 1];
                 numArr[j + 1] = temp;
             }

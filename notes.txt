@@ -79,3 +79,4 @@
     on the size of the array.
 
 27. fill(arr, arr + length, value) [fill an array with one specified value]
+    fill(start, end, val)

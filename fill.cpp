@@ -2,9 +2,12 @@
 
 int main()
 {
-    std::string arr[100];
+    const int SIZE = 15;
+    std::string arr[SIZE];
 
-    fill(arr, arr + 100, "Naavid");
+    fill(arr, arr + SIZE/2, "Naavid");
+    fill(arr + SIZE/2, arr + SIZE, "Morshed");
+
 
     for (auto item : arr)
     {
