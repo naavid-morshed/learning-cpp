@@ -1,1 +1,0 @@
-(i + 1 != sizeof(numArr) / sizeof(int)) ? ", " : "."

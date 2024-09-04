@@ -6,16 +6,16 @@ int main()
     int numArrLength = sizeof(numArr) / sizeof(int);
 
     // low to high
-    for (int index1; index1 < numArrLength; ++index1)
+    for (int index1; index1 < numArrLength - 1; index1++)
     {
-        for (int index2 = index1; index2 < numArrLength; ++index2)
+        for (int index2; index2 < numArrLength - index2 - 1; index2++)
         {
-            if (numArr[index1] > numArr[index2])
+            if (numArr[index2] > numArr[index2 + 1])
             {
                 int temp;
-                temp = numArr[index1];
-                numArr[index1] = numArr[index2];
-                numArr[index2] = temp;
+                temp = numArr[index2];
+                numArr[index2] = numArr[index2 + 1];
+                numArr[index2 + 1] = temp;
             }
         }
     }
