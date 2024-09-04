@@ -5,9 +5,9 @@ int main()
     const int SIZE = 15;
     std::string arr[SIZE];
 
-    fill(arr, arr + SIZE/2, "Naavid");
-    fill(arr + SIZE/2, arr + SIZE, "Morshed");
-
+    fill(arr, arr + SIZE / 3, "A");
+    fill(arr + SIZE / 3, arr + (SIZE / 3) * 2, "B");
+    fill(arr + (SIZE / 3) * 2, arr + SIZE, "C");
 
     for (auto item : arr)
     {
