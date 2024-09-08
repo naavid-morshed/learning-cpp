@@ -97,4 +97,10 @@
         [here dereferenced *pArr will print the first element of the array and decay into a pointer again
         and will only print the first element]
 
+    ** MORE SPECIAL BEHAVIOR **
+        int* pointer = nullptr;
+
+        std::cout << *pointer << std::endl;
+        [result => zsh: segmentation fault (core dumped); program crash or undefined behavior]
+
 30. 
