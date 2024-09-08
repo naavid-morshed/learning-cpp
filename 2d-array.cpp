@@ -3,7 +3,7 @@
 int main()
 {
     // [row][col]
-    // col must be specified
+    // col must be specified, row specification is optional unless not assigned during declaration
     std::string arr[][3] = {
         {"A", "B", "C"},
         {"D", "E", "F"},
