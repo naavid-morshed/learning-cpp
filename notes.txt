@@ -88,4 +88,12 @@
     std::string *pName = &name; [this is how a pointer is typically declared]
     [* is called dereference operator]
 
+    ** SPECIAL BEHAVIOR **
+        std::string arr[5] = {"A", "B", "F", "C", "E"};
+        std::string *pArr = arr;
+
+        std::cout << *pArr << std::endl;
+        [here dereferenced *pArr will print the first element of the array and decay into a pointer again
+        and will only print the first element]
+
 30. 

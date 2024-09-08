@@ -21,6 +21,6 @@ int main()
     std::string arr[5] = {"A", "B", "F", "C", "E"};
     std::string *pArr = arr;
 
-    std::cout << *pArr << std::endl;
+    std::cout << pArr << std::endl;
 
 }
