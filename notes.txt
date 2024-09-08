@@ -102,5 +102,9 @@
 
         std::cout << *pointer << std::endl;
         [result => zsh: segmentation fault (core dumped); program crash or undefined behavior]
+        [check with => if(pointer != nullptr)]
 
-30. 
+30. Dynamic Memory : Dynamic Memory is memory that is allocated after the program is already running and 
+    allocated.
+    [Use new operator to allocate memory in heap rather than in stack]
+    [Useful when memory need is unknown before running program]
