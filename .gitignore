@@ -1,19 +1,2 @@
-2d-array 
-a
-arithmatic-operators
-array 
-bubble-sort
-cmath
-fill
-flush
-functions 
-getline
-iomaniop
-memory-address
-namespace
-pointer
-random-numbers
-sizeof
-temCodeRunnerFile
-typedef
-using
+# Ignore all files without an extension recursively
+**/*[^.]*
