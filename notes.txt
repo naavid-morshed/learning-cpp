@@ -85,8 +85,8 @@
 
 29. POINTER: a pointer is variable that holds the memory location of another variable.
     std::string name = "Naavid Morshed";
-    std::string *pName = &name; [this is how a pointer is typically declared]
-    [* is called dereference operator]
+    std::string *pName = &name; [this is how a pointer is typically declared, other ways are available] 
+    [* is called dereference operator] [std::string* pName1, pName2; another way of declaraction]
 
     ** SPECIAL BEHAVIOR **
         std::string arr[5] = {"A", "B", "F", "C", "E"};
