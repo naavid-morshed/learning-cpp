@@ -105,6 +105,14 @@
         [check with => if(pointer != nullptr)]
 
 30. Dynamic Memory : Dynamic Memory is memory that is allocated after the program is already running and 
-    allocated.
+    allocated. [check dynamic-memory.cpp]
     [Use new operator to allocate memory in heap rather than in stack]
     [Useful when memory need is unknown before running program]
+
+    ** USAGE **
+    int* pointer = new int;
+    *pointer = 21;
+    delete pointer; [always delete and free memory space after using new keyword to allocate memory.
+    Otherwise may cause memory leak] [delete[] if you're going to delete an array]
+
+11. 

@@ -23,4 +23,9 @@ int main()
 
     std::cout << *pArr << std::endl; // first element is printed only
 
+    std::string* pClientName = new std::string;
+    *pClientName = "BRAC";
+    std::cout << pClientName << std::endl;
+    std::cout << *pClientName << std::endl;
+    delete pClientName;
 }
