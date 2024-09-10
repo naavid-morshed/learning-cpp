@@ -1,28 +1,26 @@
 #include <iostream>
 
-enum Weekdays
-{
-    saturday,
-    sunday,
-    monday,
-    tuesday,
-    wednesday,
-    thursday,
-    friday
-};
+// enum Weekdays
+// {
+//     saturday,
+//     sunday,
+//     monday,
+//     tuesday,
+//     wednesday,
+//     thursday,
+//     friday
+// };
 
-/*
 enum Weekdays
 {
     saturday = 0,
-    sunday = 1,
+    sunday = 500, // still prints 1
     monday = 2,
     tuesday = 3,
     wednesday = 4,
-    thursday = 5,
+    thursday = 55,
     friday = 6
 };
-*/
 
 int main()
 {
