@@ -115,4 +115,38 @@
     delete pointer; [always delete and free memory space after using new keyword to allocate memory.
     Otherwise may cause memory leak] [delete[] if you're going to delete an array]
 
-11. 
+11. Function Templates: Can accept any data type [see function-template.cpp]
+
+12. Struct : A STRUCT is a structure that groups related variables under one name.
+             [variables in a struct is known as member]
+             [a struct can be imagined as a custom data type]
+             [see struct.cpp]
+
+13. Printing boolean does not print true or false, rather 0 for false and 1 for true.
+
+14. Enum : An user-defined datatype that consists of a pair named integer constants.
+           [should be used to represent a set of potential options] [see enum.cpp]
+           
+            enum Weekdays
+            {
+                saturday,
+                sunday,
+                monday,
+                tuesday,
+                wednesday,
+                thursday,
+                friday
+            }; => is the same as => enum Weekdays
+                                    {
+                                        saturday = 0,
+                                        sunday = 1,
+                                        monday = 2,
+                                        tuesday = 3,
+                                        wednesday = 4,
+                                        thursday = 5,
+                                        friday = 6
+                                    };
+
+15. Strings cannot be used with switches.
+
+16. 

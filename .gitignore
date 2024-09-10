@@ -6,6 +6,7 @@ bubble-sort
 cmath
 fill
 flush
+function-templates
 functions 
 getline
 iomaniop
@@ -19,3 +20,5 @@ temCodeRunnerFile
 typedef
 using
 tictactoe
+struct
+enum
