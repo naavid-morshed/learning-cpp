@@ -149,4 +149,10 @@
 
 15. Strings cannot be used with switches.
 
-16. 
+16. cpp inheritence : 
+    class TeacherAssistant : public Student // has to be public otherwise inheritance will be private
+    // here TeacherAssistant extends Student class,l if not specified public Student the TeacherAssistant
+    // instance wouldn't be able to access Student class methods
+    [Student(std::string name, int id, std::string department): name(name), id(id), department(department) // constructor initializer list]
+    
+17. 
