@@ -149,10 +149,16 @@
 
 15. Strings cannot be used with switches.
 
-16. cpp inheritence : 
-    class TeacherAssistant : public Student // has to be public otherwise inheritance will be private
-    // here TeacherAssistant extends Student class,l if not specified public Student the TeacherAssistant
-    // instance wouldn't be able to access Student class methods
+16. cpp inheritence : [cpp allows multiple inheritence, may result in diamond problem]
+    (class TeacherAssistant : public Student) // has to be public otherwise inheritance will be private
+    [here TeacherAssistant extends Student class, if not specified public Student the TeacherAssistant
+     instance wouldn't be able to access Student class methods]
     [Student(std::string name, int id, std::string department): name(name), id(id), department(department) // constructor initializer list]
     
-17. 
+17. Destructor : Destructor is called when object goes out of scope to release memory allocated from the heap.
+    Destructors are called in reverse order of creation when multiple objects need to destroyed.
+    [if memory allocated with new, then DELETE should be used to destroy object]
+    [cannot be overloaded or cannot have parameters]
+
+    ** VIRTUAL_DESTRUCTOR ** [Study Later]
+    ** PRIVATE DESTRUCTOR ** [Study Later]
