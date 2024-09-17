@@ -112,8 +112,10 @@
     ** USAGE **
     int* pointer = new int;
     *pointer = 21;
-    delete pointer; [always delete and free memory space after using new keyword to allocate memory.
-    Otherwise may cause memory leak] [delete[] if you're going to delete an array]
+    delete pointer; [always delete and free memory space after using new keyword to allocate memory,
+    Otherwise may cause memory leak]
+
+    [delete[] if you're going to delete an array, array who's memory is allocated in heap]
 
 11. Function Templates: Can accept any data type [see function-template.cpp]
 
@@ -179,8 +181,8 @@
                       Virtual functions are used to achieve runtime polymorphism and
                       the resolving of a function is done at runtime.
 
-    *** if a derived/child class does not override a parent's virtual function ***
-    *** then it too becomes an Abstract class and cannot be instantiated       ***
+    *** if a derived/child class does not override a parent's virtual function then ***
+    *** it too becomes an Abstract class and cannot be instantiated                 ***
 
     ** A class may have a virtual destructor but cannot have a virtual constructor **
 
