@@ -154,7 +154,8 @@
     [here TeacherAssistant extends Student class, if not specified public Student the TeacherAssistant
      instance wouldn't be able to access Student class methods]
     [Student(std::string name, int id, std::string department): name(name), id(id), department(department) // constructor initializer list]
-    
+    [DerivedClass(params): BaseClass(params)] // constructor initializer list for Parent Class
+
 17. Destructor : Destructor is called when object goes out of scope to release memory allocated from the heap.
     Destructors are called in reverse order of creation when multiple objects need to destroyed.
     [if memory allocated with new, then DELETE should be used to destroy object]
@@ -162,3 +163,27 @@
 
     ** VIRTUAL_DESTRUCTOR ** [Study Later]
     ** PRIVATE DESTRUCTOR ** [Study Later]
+
+18. How to make header files that can be used in other
+
+    #ifndef BOOK_H
+    #define BOOK_H
+
+    // Header file content goes here
+
+    #endif
+
+19. Abstract Class: A class is abstract if it has at least one pure virtual function.
+    Virtual Function: Virtual Function/Method is a member function that is declared
+                      within a base/parent class is overridden by a child/derived class.
+                      Virtual functions are used to achieve runtime polymorphism and
+                      the resolving of a function is done at runtime.
+
+    *** if a derived/child class does not override a parent's virtual function ***
+    *** then it too becomes an Abstract class and cannot be instantiated       ***
+
+    ** A class may have a virtual destructor but cannot have a virtual constructor **
+
+20.
+
+
